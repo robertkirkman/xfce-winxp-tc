@@ -1,5 +1,6 @@
 missing 16px
 ------------
+finish
 
 missing 24px
 ------------
@@ -81,6 +82,11 @@ file_web_config
 
 missing 32px
 ------------
+cut
+down
+finish
+select_all
+up
 
 missing 48px
 ------------
