@@ -78,7 +78,7 @@ mkdir -p "${theme_gtk3_dir}"
 # Copy static content straight into package
 #
 pkg_setup_result=0
-theme_root="${REPO_ROOT}/themes/luna/blue"
+theme_root="${REPO_ROOT}/themes/luna.old/blue"
 
 cp -r "${theme_root}/gtk-2.0" "${theme_dir}/gtk-2.0"
 ((pkg_setup_result+=$?))
