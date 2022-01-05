@@ -1,5 +1,6 @@
 button_offset=1
 button_spacing=2
+maximized_offset=2
 full_width_title=false
 title_horizontal_offset=4
 title_vertical_offset_active=2
