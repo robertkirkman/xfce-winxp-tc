@@ -1,6 +1,6 @@
 /* XPM */
 static char *dummy[]={
-"21 22 191 2",
+"21 23 191 2",
 "Qt c None",
 "aA c #262626",
 "ap c #272727",
@@ -192,6 +192,7 @@ static char *dummy[]={
 "#7 c #e5a08b",
 "ad c #e6a08b",
 "ae c #e6a18b",
+"QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt",
 "QtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQtQt",
 ".#.a.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.b.a.#",
 ".a.c.d.e.f.g.h.h.i.i.i.i.i.h.h.g.f.e.d.c.a",
