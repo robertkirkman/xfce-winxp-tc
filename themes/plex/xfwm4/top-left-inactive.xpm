@@ -1,6 +1,6 @@
 /* XPM */
 static char *dummy[]={
-"13 31 14 1",
+"13 30 14 1",
 ". c None",
 "k c #3974c9",
 "j c #3b76cb",
@@ -22,7 +22,6 @@ static char *dummy[]={
 "..ecddddddddd",
 ".fcdddddddddd",
 ".fcdddddddddd",
-"ggddddddddddd",
 "ggddddddddddd",
 "ggddddddddddd",
 "ggddddddddddd",
