@@ -170,14 +170,12 @@ headerbar.selection-mode button.titlebutton,
         border: none;
     }
 
-    // FIXME: This bodge fixes GLADE, which uses a stack - padding to the window
-    //        itself did not fix the issue so this was the next best thing
+    // This padding pushes some dialog content inwards, to prevent overlapping with
+    // the window border
     //
-    //        Not sure if it causes problems with other programs however...
-    //
-    > stack
+    .dialog-vbox
     {
-        padding: 0px 5px 5px;
+        padding: 8px;
     }
 
     // Style revealers that are top-level in the CSD, otherwise they will be missing
@@ -193,5 +191,23 @@ headerbar.selection-mode button.titlebutton,
         {
             border-image: url("../Resources/csd-window-border-backdrop.png") 0 5 5 5 stretch;
         }
+    }
+
+    // This border-radius is necessary to fix rendering artifacts introduced in
+    // GTK 3.24.24 / XFCE 4.16
+    //
+    decoration
+    {
+        border-radius: 5px;
+    }
+
+    // FIXME: This bodge fixes GLADE, which uses a stack - padding to the window
+    //        itself did not fix the issue so this was the next best thing
+    //
+    //        Not sure if it causes problems with other programs however...
+    //
+    > stack
+    {
+        padding: 0px 5px 5px;
     }
 }
