@@ -16,6 +16,7 @@ CURDIR=`realpath -s "./"`
 PKG_DIR=`realpath -s "./tmp.cur-pkg"`
 REQUIRED_PACKAGES=(
     'fakeroot'
+    'ruby-sass'
 )
 SCRIPTDIR=`dirname "$0"`
 
