@@ -150,13 +150,13 @@ headerbar.selection-mode button.titlebutton,
 //
 .csd:not(tooltip):not(.popup)
 {
-    border-image: url("../Resources/csd-window-border.png") 0 5 5 5 stretch;
+    border-image: url("../Resources/csd-window-border.png") 30 5 5 5 stretch;
     border-style: solid;
     border-width: 0px 5px 5px;
 
     &:backdrop
     {
-        border-image: url("../Resources/csd-window-border-backdrop.png") 0 5 5 5 stretch;
+        border-image: url("../Resources/csd-window-border-backdrop.png") 30 5 5 5 stretch;
     }
 
     &.tiled,
@@ -183,13 +183,13 @@ headerbar.selection-mode button.titlebutton,
     //
     > box > searchbar > revealer > box
     {
-        border-image: url("../Resources/csd-window-border.png") 0 5 5 5 stretch;
+        border-image: url("../Resources/csd-window-border.png") 30 5 5 5 stretch;
         border-style: solid;
         border-width: 0px 5px;
 
         &:backdrop
         {
-            border-image: url("../Resources/csd-window-border-backdrop.png") 0 5 5 5 stretch;
+            border-image: url("../Resources/csd-window-border-backdrop.png") 30 5 5 5 stretch;
         }
     }
 

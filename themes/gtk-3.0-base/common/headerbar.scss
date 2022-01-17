@@ -11,18 +11,16 @@
 headerbar
 {
     background-image:    url("../Resources/headerbar-body.png");
-    background-position: center -2px;
-    background-size:     3px 110%;
-    border-image:        url("../Resources/headerbar-frame-csd.png") 5 9 3 9 stretch;
+    background-size:     100% 100%;
+    border-image:        url("../Resources/headerbar-frame-csd.png") 6 9 3 9 stretch;
     border-style:        solid;
-    border-width:        5px 9px 3px;
-    min-height:          $_headerbar_height;
+    border-width:        6px 9px 3px;
     padding:             0 6px;
 
     &:backdrop
     {
         background-image: url("../Resources/headerbar-body-backdrop.png");
-        border-image:     url("../Resources/headerbar-frame-backdrop-csd.png") 5 9 3 9 stretch;
+        border-image:     url("../Resources/headerbar-frame-backdrop-csd.png") 6 9 3 9 stretch;
     }
 
     .title
@@ -171,11 +169,11 @@ headerbar
     {
         &
         {
-            border-image: url("../Resources/headerbar-frame.png") 5 9 3 9 stretch;
+            border-image: url("../Resources/headerbar-frame.png") 6 9 3 9 stretch;
             
             &:backdrop
             {
-                border-image: url("../Resources/header-frame-backdrop.png") 5 9 3 9 stretch;
+                border-image: url("../Resources/header-frame-backdrop.png") 6 9 3 9 stretch;
             }
         }
     }
