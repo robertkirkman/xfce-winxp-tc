@@ -415,7 +415,7 @@ style "default" {
       function        = ARROW
       state           = NORMAL
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-left.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -424,7 +424,7 @@ style "default" {
       function        = ARROW
       state           = PRELIGHT
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-left-hover.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -433,7 +433,7 @@ style "default" {
       function        = ARROW
       state           = INSENSITIVE
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-left-insensitive.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -442,7 +442,7 @@ style "default" {
       function        = ARROW
       state           = NORMAL
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-right.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -451,7 +451,7 @@ style "default" {
       function        = ARROW
       state           = PRELIGHT
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-right-hover.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -460,7 +460,7 @@ style "default" {
       function        = ARROW
       state           = INSENSITIVE
       detail          = "menuitem"
-      overlay_file    = "assets/menu-pan-right-insensitive.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -469,14 +469,14 @@ style "default" {
       function        = ARROW
       state           = INSENSITIVE
       detail          = "menu_scroll_arrow_up"
-      overlay_file    = "assets/menu-pan-up-insensitive.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu_inactive.png"
       overlay_stretch = FALSE
     }
 
     image {
       function        = ARROW
       detail          = "menu_scroll_arrow_up"
-      overlay_file    = "assets/menu-pan-up.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu.png"
       overlay_stretch = FALSE
     }
 
@@ -484,14 +484,14 @@ style "default" {
       function        = ARROW
       state           = INSENSITIVE
       detail          = "menu_scroll_arrow_down"
-      overlay_file    = "assets/menu-pan-down-insensitive.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu_inactive.png"
       overlay_stretch = FALSE
     }
 
     image {
       function        = ARROW
       detail          = "menu_scroll_arrow_down"
-      overlay_file    = "assets/menu-pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu.png"
       overlay_stretch = FALSE
     }
 
@@ -500,7 +500,7 @@ style "default" {
     image {
       function        = ARROW
       state           = NORMAL
-      overlay_file    = "assets/pan-up.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = UP
     }
@@ -508,7 +508,7 @@ style "default" {
     image {
       function        = ARROW
       state           = PRELIGHT
-      overlay_file    = "assets/pan-up.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = UP
     }
@@ -516,7 +516,7 @@ style "default" {
     image {
       function        = ARROW
       state           = ACTIVE
-      overlay_file    = "assets/pan-up.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = UP
     }
@@ -524,7 +524,7 @@ style "default" {
     image {
       function        = ARROW
       state           = INSENSITIVE
-      overlay_file    = "assets/pan-up-insensitive.png"
+      overlay_file    = "../Resources/pan_up_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = UP
     }
@@ -532,7 +532,7 @@ style "default" {
     image {
       function        = ARROW
       state           = NORMAL
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = DOWN
     }
@@ -540,7 +540,7 @@ style "default" {
     image {
       function        = ARROW
       state           = PRELIGHT
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = DOWN
     }
@@ -548,7 +548,7 @@ style "default" {
     image {
       function        = ARROW
       state           = ACTIVE
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = DOWN
     }
@@ -556,7 +556,7 @@ style "default" {
     image {
       function        = ARROW
       state           = INSENSITIVE
-      overlay_file    = "assets/pan-down-insensitive.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = DOWN
     }
@@ -564,7 +564,7 @@ style "default" {
     image {
       function        = ARROW
       state           = NORMAL
-      overlay_file    = "assets/pan-left.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -572,7 +572,7 @@ style "default" {
     image {
       function        = ARROW
       state           = PRELIGHT
-      overlay_file    = "assets/pan-left.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -580,7 +580,7 @@ style "default" {
     image {
       function        = ARROW
       state           = ACTIVE
-      overlay_file    = "assets/pan-left.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -588,7 +588,7 @@ style "default" {
     image {
       function        = ARROW
       state           = INSENSITIVE
-      overlay_file    = "assets/pan-left-insensitive.png"
+      overlay_file    = "../Resources/pan_left_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = LEFT
     }
@@ -596,7 +596,7 @@ style "default" {
     image {
       function        = ARROW
       state           = NORMAL
-      overlay_file    = "assets/pan-right.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -604,7 +604,7 @@ style "default" {
     image {
       function        = ARROW
       state           = PRELIGHT
-      overlay_file    = "assets/pan-right.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu_hover.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -612,7 +612,7 @@ style "default" {
     image {
       function        = ARROW
       state           = ACTIVE
-      overlay_file    = "assets/pan-right.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -620,7 +620,7 @@ style "default" {
     image {
       function        = ARROW
       state           = INSENSITIVE
-      overlay_file    = "assets/pan-right-insensitive.png"
+      overlay_file    = "../Resources/pan_right_arrow_menu_inactive.png"
       overlay_stretch = FALSE
       arrow_direction = RIGHT
     }
@@ -632,28 +632,28 @@ style "default" {
     image {
       function        = TAB
       state           = NORMAL
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu.png"
       overlay_stretch = FALSE
     }
 
     image {
       function        = TAB
       state           = PRELIGHT
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu_hover.png"
       overlay_stretch = FALSE
     }
 
     image {
       function        = TAB
       state           = ACTIVE
-      overlay_file    = "assets/pan-down.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu.png"
       overlay_stretch = FALSE
     }
 
     image {
       function        = TAB
       state           = INSENSITIVE
-      overlay_file    = "assets/pan-down-insensitive.png"
+      overlay_file    = "../Resources/pan_down_arrow_menu_inactive.png"
       overlay_stretch = FALSE
     }
 
