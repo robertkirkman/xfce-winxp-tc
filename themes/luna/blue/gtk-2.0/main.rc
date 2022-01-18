@@ -271,7 +271,7 @@ style "default" {
       function        = OPTION
       state           = NORMAL
       shadow          = OUT
-      overlay_file    = "assets/radio-unchecked.png"
+      overlay_file    = "../Resources/radio_unchecked.png"
       overlay_stretch = FALSE
     }
 
@@ -279,7 +279,7 @@ style "default" {
       function        = OPTION
       state           = PRELIGHT
       shadow          = OUT
-      overlay_file    = "assets/radio-unchecked-hover.png"
+      overlay_file    = "../Resources/radio_unchecked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -287,7 +287,7 @@ style "default" {
       function        = OPTION
       state           = ACTIVE
       shadow          = OUT
-      overlay_file    = "assets/radio-unchecked-active.png"
+      overlay_file    = "../Resources/radio_unchecked_press.png"
       overlay_stretch = FALSE
     }
 
@@ -295,7 +295,7 @@ style "default" {
       function        = OPTION
       state           = SELECTED
       shadow          = OUT
-      overlay_file    = "assets/radio-unchecked.png"
+      overlay_file    = "../Resources/radio_unchecked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -303,7 +303,7 @@ style "default" {
       function        = OPTION
       state           = INSENSITIVE
       shadow          = OUT
-      overlay_file    = "assets/radio-unchecked-insensitive.png"
+      overlay_file    = "../Resources/radio_unchecked_inactive.png"
       overlay_stretch = FALSE
     }
 
@@ -311,7 +311,7 @@ style "default" {
       function        = OPTION
       state           = NORMAL
       shadow          = IN
-      overlay_file    = "assets/radio-checked.png"
+      overlay_file    = "../Resources/radio_checked.png"
       overlay_stretch = FALSE
     }
 
@@ -319,7 +319,7 @@ style "default" {
       function        = OPTION
       state           = PRELIGHT
       shadow          = IN
-      overlay_file    = "assets/radio-checked-hover.png"
+      overlay_file    = "../Resources/radio_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -327,7 +327,7 @@ style "default" {
       function        = OPTION
       state           = ACTIVE
       shadow          = IN
-      overlay_file    = "assets/radio-checked-active.png"
+      overlay_file    = "../Resources/radio_checked_press.png"
       overlay_stretch = FALSE
     }
 
@@ -335,7 +335,7 @@ style "default" {
       function        = OPTION
       state           = SELECTED
       shadow          = IN
-      overlay_file    = "assets/radio-checked.png"
+      overlay_file    = "../Resources/radio_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -343,7 +343,7 @@ style "default" {
       function        = OPTION
       state           = INSENSITIVE
       shadow          = IN
-      overlay_file    = "assets/radio-checked-insensitive.png"
+      overlay_file    = "../Resources/radio_checked_inactive.png"
       overlay_stretch = FALSE
     }
 
@@ -351,7 +351,7 @@ style "default" {
       function        = OPTION
       state           = NORMAL
       shadow          = ETCHED_IN
-      overlay_file    = "assets/radio-mixed.png"
+      overlay_file    = "../Resources/radio_checked.png"
       overlay_stretch = FALSE
     }
 
@@ -359,7 +359,7 @@ style "default" {
       function        = OPTION
       state           = PRELIGHT
       shadow          = ETCHED_IN
-      overlay_file    = "assets/radio-mixed-hover.png"
+      overlay_file    = "../Resources/radio_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -367,7 +367,7 @@ style "default" {
       function        = OPTION
       state           = ACTIVE
       shadow          = ETCHED_IN
-      overlay_file    = "assets/radio-mixed-active.png"
+      overlay_file    = "../Resources/radio_checked_press.png"
       overlay_stretch = FALSE
     }
 
@@ -375,7 +375,7 @@ style "default" {
       function        = OPTION
       state           = SELECTED
       shadow          = ETCHED_IN
-      overlay_file    = "assets/radio-mixed.png"
+      overlay_file    = "../Resources/radio_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -383,7 +383,7 @@ style "default" {
       function        = OPTION
       state           = INSENSITIVE
       shadow          = ETCHED_IN
-      overlay_file    = "assets/radio-mixed-insensitive.png"
+      overlay_file    = "../Resources/radio_checked_inactive.png"
       overlay_stretch = FALSE
     }
 
