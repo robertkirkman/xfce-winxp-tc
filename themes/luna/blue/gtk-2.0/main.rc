@@ -709,7 +709,7 @@ style "default" {
     image {
       function       = EXPANDER
       expander_style = EXPANDED
-      file           = "assets/pan-down.png"
+      file           = "../Resources/pan_down_arrow_menu.png"
     }
 
     # LTR
@@ -717,21 +717,21 @@ style "default" {
     image {
       function       = EXPANDER
       expander_style = COLLAPSED
-      file           = "assets/pan-right.png"
+      file           = "../Resources/pan_right_arrow_menu.png"
       direction      = LTR
     }
 
     image {
       function       = EXPANDER
       expander_style = SEMI_COLLAPSED
-      file           = "assets/pan-right-semi.png"
+      file           = "../Resources/pan_se_arrow_menu.png"
       direction      = LTR
     }
 
     image {
       function       = EXPANDER
       expander_style = SEMI_EXPANDED
-      file           = "assets/pan-right-semi.png"
+      file           = "../Resources/pan_se_arrow_menu.png"
       direction      = LTR
     }
 
@@ -740,21 +740,21 @@ style "default" {
     image {
       function       = EXPANDER
       expander_style = COLLAPSED
-      file           = "assets/pan-left.png"
+      file           = "../Resources/pan_left_arrow_menu.png"
       direction      = RTL
     }
 
     image {
       function       = EXPANDER
       expander_style = SEMI_COLLAPSED
-      file           = "assets/pan-left-semi.png"
+      file           = "../Resources/pan_sw_arrow_menu.png"
       direction      = RTL
     }
 
     image {
       function       = EXPANDER
       expander_style = SEMI_EXPANDED
-      file           = "assets/pan-left-semi.png"
+      file           = "../Resources/pan_sw_arrow_menu.png"
       direction      = RTL
     }
 
