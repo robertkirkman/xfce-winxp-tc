@@ -147,7 +147,7 @@ style "default" {
       function        = CHECK
       state           = NORMAL
       shadow          = OUT
-      overlay_file    = "assets/checkbox-unchecked.png"
+      overlay_file    = "../Resources/checkbox_unchecked.png"
       overlay_stretch = FALSE
     }
 
@@ -155,7 +155,7 @@ style "default" {
       function        = CHECK
       state           = PRELIGHT
       shadow          = OUT
-      overlay_file    = "assets/checkbox-unchecked-hover.png"
+      overlay_file    = "../Resources/checkbox_unchecked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -163,7 +163,7 @@ style "default" {
       function        = CHECK
       state           = ACTIVE
       shadow          = OUT
-      overlay_file    = "assets/checkbox-unchecked-active.png"
+      overlay_file    = "../Resources/checkbox_unchecked_press.png"
       overlay_stretch = FALSE
     }
 
@@ -171,7 +171,7 @@ style "default" {
       function        = CHECK
       state           = SELECTED
       shadow          = OUT
-      overlay_file    = "assets/checkbox-unchecked.png"
+      overlay_file    = "../Resources/checkbox_unchecked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -179,7 +179,7 @@ style "default" {
       function        = CHECK
       state           = INSENSITIVE
       shadow          = OUT
-      overlay_file    = "assets/checkbox-unchecked-insensitive.png"
+      overlay_file    = "../Resources/checkbox-unchecked-inactive.png"
       overlay_stretch = FALSE
     }
 
@@ -187,7 +187,7 @@ style "default" {
       function        = CHECK
       state           = NORMAL
       shadow          = IN
-      overlay_file    = "assets/checkbox-checked.png"
+      overlay_file    = "../Resources/checkbox_checked.png"
       overlay_stretch = FALSE
     }
 
@@ -195,7 +195,7 @@ style "default" {
       function        = CHECK
       state           = PRELIGHT
       shadow          = IN
-      overlay_file    = "assets/checkbox-checked-hover.png"
+      overlay_file    = "../Resources/checkbox_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -203,7 +203,7 @@ style "default" {
       function        = CHECK
       state           = ACTIVE
       shadow          = IN
-      overlay_file    = "assets/checkbox-checked-active.png"
+      overlay_file    = "../Resources/checkbox_checked_press.png"
       overlay_stretch = FALSE
     }
 
@@ -211,7 +211,7 @@ style "default" {
       function        = CHECK
       state           = SELECTED
       shadow          = IN
-      overlay_file    = "assets/checkbox-checked.png"
+      overlay_file    = "../Resources/checkbox_checked_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -219,7 +219,7 @@ style "default" {
       function        = CHECK
       state           = INSENSITIVE
       shadow          = IN
-      overlay_file    = "assets/checkbox-checked-insensitive.png"
+      overlay_file    = "../Resources/checkbox_checked_inactive.png"
       overlay_stretch = FALSE
     }
 
@@ -227,7 +227,7 @@ style "default" {
       function        = CHECK
       state           = NORMAL
       shadow          = ETCHED_IN
-      overlay_file    = "assets/checkbox-mixed.png"
+      overlay_file    = "../Resources/checkbox_indecisive.png"
       overlay_stretch = FALSE
     }
 
@@ -235,7 +235,7 @@ style "default" {
       function        = CHECK
       state           = PRELIGHT
       shadow          = ETCHED_IN
-      overlay_file    = "assets/checkbox-mixed-hover.png"
+      overlay_file    = "../Resources/checkbox_indecisive_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -243,7 +243,7 @@ style "default" {
       function        = CHECK
       state           = ACTIVE
       shadow          = ETCHED_IN
-      overlay_file    = "assets/checkbox-mixed-active.png"
+      overlay_file    = "../Resources/checkbox_indecisive_press.png"
       overlay_stretch = FALSE
     }
 
@@ -251,7 +251,7 @@ style "default" {
       function        = CHECK
       state           = SELECTED
       shadow          = ETCHED_IN
-      overlay_file    = "assets/checkbox-mixed.png"
+      overlay_file    = "../Resources/checkbox_indecisive_hover.png"
       overlay_stretch = FALSE
     }
 
@@ -259,7 +259,7 @@ style "default" {
       function        = CHECK
       state           = INSENSITIVE
       shadow          = ETCHED_IN
-      overlay_file    = "assets/checkbox-mixed-insensitive.png"
+      overlay_file    = "../Resources/checkbox_indecisive_inactive.png"
       overlay_stretch = FALSE
     }
 
