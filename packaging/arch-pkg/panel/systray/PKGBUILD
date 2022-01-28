@@ -1,0 +1,32 @@
+_pkgname=systray
+pkgname="xfce4-xp-${_pkgname}-plugin"
+srcname=xfce-winxp-tc
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Windows XP notification area for XFCE."
+arch=('x86_64')
+url="https://github.com/rozniak/xfce-winxp-tc/"
+depends=('glib2' 'gtk3' 'exo' 'garcon' 'libxfce4ui' 'libxfce4util' 
+	 'xfce4-panel')
+makedepends=('cmake' 'git')
+source=("${srcname}::git+file://$(pwd)/../../../..")
+sha256sums=('SKIP')
+
+pkgver() {
+  grep Version "${srcdir}/${srcname}/shell/${_pkgname}/debian-control" \
+    | awk -F' ' '{print $NF}'
+}
+
+build() {
+  cmake -S "${srcdir}/${srcname}/shell/${_pkgname}" -B build
+  cmake --build build
+}
+
+package() {
+  pkg_plug_dir="${pkgdir}/usr/lib/xfce4/panel/plugins"
+  pkg_desktop_dir="${pkgdir}/usr/share/xfce4/panel/plugins"
+  mkdir -p "${pkg_plug_dir}" "${pkg_desktop_dir}"
+  cp build/*.so "${pkg_plug_dir}"
+  cp "${srcdir}/${srcname}/shell/${_pkgname}/"*.desktop "${pkg_desktop_dir}" 
+}
+

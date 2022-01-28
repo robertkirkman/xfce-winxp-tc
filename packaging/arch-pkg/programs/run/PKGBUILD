@@ -1,0 +1,29 @@
+_pkgname=run
+pkgname="wintc-shell-${_pkgname}"
+srcname=xfce-winxp-tc
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Windows shell 'Run' application."
+arch=('x86_64')
+url="https://github.com/rozniak/xfce-winxp-tc/"
+depends=('glib2' 'gtk3' 'libwintc-comgtk' 'libwintc-exec')
+makedepends=('cmake' 'git')
+source=("${srcname}::git+file://$(pwd)/../../../..")
+sha256sums=('SKIP')
+
+pkgver() {
+  grep Version "${srcdir}/${srcname}/shell/${_pkgname}/debian-control" \
+    | awk -F' ' '{print $NF}'
+}
+
+build() {
+  cmake -S "${srcdir}/${srcname}/shell/${_pkgname}" -B build
+  cmake --build build
+}
+
+package() {
+  pkg_prog_dir="${pkgdir}/usr/bin"
+  mkdir -p "${pkg_prog_dir}"
+  cp "build/${_pkgname}" "${pkg_prog_dir}"
+}
+

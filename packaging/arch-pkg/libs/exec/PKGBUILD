@@ -1,0 +1,29 @@
+_pkgname=exec
+pkgname="libwintc-${_pkgname}"
+srcname=xfce-winxp-tc
+pkgver=1.0
+pkgrel=1
+pkgdesc="Windows Total Conversion launcher library."
+arch=('x86_64')
+url="https://github.com/rozniak/xfce-winxp-tc/"
+depends=('glib2' 'gtk3' 'libwintc-comgtk')
+makedepends=('cmake' 'git')
+source=("${srcname}::git+file://$(pwd)/../../../..")
+sha256sums=('SKIP')
+
+pkgver() {
+  grep project "${srcdir}/${srcname}/shared/${_pkgname}/CMakeLists.txt" \
+    | grep -o '[[:digit:]]\+.[[:digit:]]\+'
+}
+
+build() {
+  cmake -S "${srcdir}/${srcname}/shared/${_pkgname}" -B build \
+    -DCMAKE_INSTALL_PREFIX='/usr' \
+    -DBUILD_SHARED_LIBS=ON
+  cmake --build build
+}
+
+package() {
+  DESTDIR="${pkgdir}" cmake --install build
+}
+

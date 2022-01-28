@@ -1,8 +1,12 @@
 *.deb
-*.log
+*.log*
 *.swp
 *.kra
+*.pkg.tar.zst
 *~
 [Bb]uild/
 .sass-cache/
 resources.c
+pkg
+src
+xfce-winxp-tc
